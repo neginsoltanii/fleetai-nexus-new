@@ -15,13 +15,12 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 glass-panel">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
-          <a href="#" className="flex items-center space-x-3">
+          <a href="#" className="flex items-center">
             <img 
               src="/lovable-uploads/566a6d70-0e95-4195-baf1-6e720dec242c.png" 
               alt="FleetAI Logo" 
-              className="h-10 w-auto"
+              className="h-16 w-auto"
             />
-            <span className="text-2xl font-heading font-bold neon-text">FleetAI</span>
           </a>
 
           {/* Desktop Navigation */}
