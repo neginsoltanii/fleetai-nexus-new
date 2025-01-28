@@ -1,4 +1,4 @@
-import { Globe, Robot, User, Settings } from "lucide-react";
+import { Globe, Bot, User, Settings } from "lucide-react";
 
 const services = [
   {
@@ -7,7 +7,7 @@ const services = [
     description: "Control autonomous vehicles from anywhere in the world with our advanced remote operation platform.",
   },
   {
-    icon: <Robot className="w-8 h-8" />,
+    icon: <Bot className="w-8 h-8" />,
     title: "AI-Human Collaboration",
     description: "Seamlessly intervene when AI needs human expertise for complex navigation scenarios.",
   },
