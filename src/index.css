@@ -58,9 +58,20 @@
     @apply py-16 md:py-24;
   }
 }
-
+/*
 .hero-gradient {
   background: linear-gradient(90deg, hsla(277, 75%, 84%, 1) 0%, hsla(297, 50%, 51%, 1) 100%);
+}
+  */
+.hero-gradient {
+  background-image: url('img/back2.jpg'); /* Replace with the URL of your background image */
+  background-size: cover; /* Ensures the image covers the entire viewport */
+  background-position: center; /* Keeps the image centered */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  height: 100vh; /* Sets the height to 100% of the viewport */
+  width: 100%; /* Sets the width to 100% of the viewport */
+  position: relative; /* Allows stacking of child elements like text over the background */
+  z-index: 0; /* Ensures this background layer stays behind other elements */
 }
 
 .card-hover {
