@@ -41,10 +41,10 @@ const DeltaFleetInfo = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-8">About Delta Fleet AI</h2>
           <div className="prose prose-invert max-w-none">
             <p className="mb-4">
-              Delta Fleet AI is a speculative fictional company and part of the Autonomous Last Mile research project funded by Vinnova under the call Shape the Sustainable Solutions of the Future within the Mobility or Food System.
+              Delta Fleet AI is a speculative fictional company and part of the <strong>Autonomous Last Mile</strong> research project funded by Vinnova under the call <a href="https://www.vinnova.se/en/calls-for-proposals/future-prototypes-in-sustainable-mobility/shape-the-sustainable-solutions-of-the-2023-04105/" className="text-primary hover:underline">Shape the Sustainable Solutions of the Future within the Mobility or Food System</a>.
             </p>
             <p className="mb-4">
-              Autonomous Last Mile is a collaboration between RISE Research Institutes of Sweden and the Department of Computer and Systems Sciences at Stockholm University.
+              <strong>Autonomous Last Mile</strong> is a collaboration between RISE Research Institutes of Sweden and the Department of Computer and Systems Sciences at Stockholm University.
             </p>
             <p className="mb-8">
               This project gives an interactive vision of a future where current trends come together to create an unequal, unsafe, and unwanted vision of our future society. By exposing people today to possible future situation where they must quickly perform only the most stressful and complex of mobility tasks, in quick succession, under economic and social constraints that give them no other option we hope to encourage designers, developers and end users of these technologies to ensure that it does not come to pass.
