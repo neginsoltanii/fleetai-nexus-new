@@ -18,11 +18,11 @@ const DeltaFleetInfo = () => {
       {/* Hero Section */}
       <section className="min-h-[80vh] flex items-center justify-center text-center px-4 py-20 relative">
         {/* Logo Link */}
-        <Link to="/" className="absolute top-8 left-8">
+        <Link to="/" className="absolute top-4 left-4">
           <img
             src="src/img/logo.png"
             alt="Company Logo"
-            className="w-24 md:w-32 hover:opacity-80 transition-opacity"
+            className="w-16 md:w-20 hover:opacity-80 transition-opacity"
           />
         </Link>
 
