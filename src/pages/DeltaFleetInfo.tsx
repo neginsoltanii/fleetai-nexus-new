@@ -112,7 +112,7 @@ const DeltaFleetInfo = () => {
                 <p className="text-gray-400 mb-2">{member.role}</p>
                 <p className="text-sm text-gray-500 mb-4">{member.affiliation}</p>
                 <p className="text-sm">
-                  <a href={`mailto:${member.email}`} className="text-primary hover:underline">
+                  <a href={`mailto:${member.email}`} className="text-[#D6BCFA] hover:text-[#E5DEFF]">
                     📧 {member.email}
                   </a>
                 </p>
@@ -134,7 +134,7 @@ const DeltaFleetInfo = () => {
               />
               <a
                 href="mailto:vinnova@vinnova.se"
-                className="text-primary hover:underline mt-4 block"
+                className="text-[#D6BCFA] hover:text-[#E5DEFF] mt-4 block"
               >
                 📧 vinnova@vinnova.se
               </a>
