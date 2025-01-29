@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { ArrowDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const DeltaFleetInfo = () => {
   const scrollToSection = (sectionId: string) => {
@@ -15,7 +16,16 @@ const DeltaFleetInfo = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <section className="min-h-[80vh] flex items-center justify-center text-center px-4 py-20">
+      <section className="min-h-[80vh] flex items-center justify-center text-center px-4 py-20 relative">
+        {/* Logo Link */}
+        <Link to="/" className="absolute top-8 left-8">
+          <img
+            src="src/img/logo.png"
+            alt="Company Logo"
+            className="w-24 md:w-32 hover:opacity-80 transition-opacity"
+          />
+        </Link>
+
         <div className="container max-w-4xl">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
             Delta Fleet AI – Redefining the Future of Human-Autonomy Collaboration
