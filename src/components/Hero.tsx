@@ -1,4 +1,5 @@
 import { ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -20,12 +21,13 @@ const Hero = () => {
             Become a Remote AV Operator Today!
           </p>
 
-
           {/* Button */}
-          <button className="neon-border px-8 py-3 rounded-full font-medium flex items-center space-x-2 mx-auto hover:bg-neon-purple/10 transition-colors">
-            <span>Apply Now</span>
-            <ArrowRight className="w-4 h-4" />
-          </button>
+          <Link to="/delta-fleet-info">
+            <button className="neon-border px-8 py-3 rounded-full font-medium flex items-center space-x-2 mx-auto hover:bg-neon-purple/10 transition-colors">
+              <span>Apply Now</span>
+              <ArrowRight className="w-4 h-4" />
+            </button>
+          </Link>
         </div>
       </div>
     </section>
