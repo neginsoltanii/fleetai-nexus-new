@@ -104,7 +104,7 @@ const DeltaFleetInfo = () => {
                   className="w-32 h-32 mx-auto mb-4 rounded-full object-cover"
                 />
                 <h3 className="text-xl font-bold mb-2">{member.name}</h3>
-                <p className="text-gray-400 mb-2">{role}</p>
+                <p className="text-gray-400 mb-2">{member.role}</p>
                 <p className="text-sm text-gray-500 mb-4">{member.affiliation}</p>
                 <p className="text-sm">
                   <a href={`mailto:${member.email}`} className="text-primary hover:underline">
