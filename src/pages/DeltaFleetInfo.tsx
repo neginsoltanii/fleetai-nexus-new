@@ -13,7 +13,7 @@ const DeltaFleetInfo = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-[#F1F0FB]">
+    <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="min-h-[80vh] flex items-center justify-center text-center px-4 py-20">
         <div className="container max-w-4xl">
