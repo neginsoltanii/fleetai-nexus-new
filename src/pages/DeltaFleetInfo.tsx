@@ -13,7 +13,7 @@ const DeltaFleetInfo = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-[#F1F0FB]">
       {/* Hero Section */}
       <section className="min-h-[80vh] flex items-center justify-center text-center px-4 py-20">
         <div className="container max-w-4xl">
@@ -45,8 +45,23 @@ const DeltaFleetInfo = () => {
             <p className="mb-4">
               <strong>Autonomous Last Mile</strong> is a collaboration between <a href="https://www.ri.se/en/expertise-areas/projects/autonomous-last-mile" className="text-[#D6BCFA] hover:text-[#E5DEFF] hover:underline">RISE Research Institutes of Sweden</a> and the <a href="https://www.su.se/english/research/research-projects/autonomous-last-mile" className="text-[#D6BCFA] hover:text-[#E5DEFF] hover:underline">Department of Computer and Systems Sciences at Stockholm University</a>.
             </p>
+            <p className="mb-4">
+              This project gives an interactive vision of a future where current trends come together to create an unequal, unsafe, and unwanted vision of our future society. By exposing people today to possible future situation where they must quickly perform only the most stressful and complex of mobility tasks, in quick succession, under economic and social constraints that give them no other option we hope to encourage designers, developers and end users of these technologies to ensure that it does not come to pass. In doing so, the project uses Extended Reality (XR) to explore a future where Autonomous Vehicles (Avs) such as passenger cars, commercial vehicles, watercrafts have become the primary mode of mobility, replacing traditional driving.
+            </p>
+            <p className="mb-4">
+              While the future of autonomous vehicles seems to be approaching, there will still be instances where human intervention will be necessary. In this project we develop Extended Reality experiences to provide visions of this future, informed by current events and autonomous agent research.
+            </p>
+            <p className="mb-4">
+              In a future filled with autonomous vehicles, there will still be instances where human intervention is necessary to ensure safe and convenient mobility. When most of the simple tasks are easily handled by an algorithm, the edge cases will necessarily be complex, time sensitive, or outside the norm.
+            </p>
+            <p className="mb-4">
+              In these situations, remote operators play a crucial role, stepping in when the autonomous vehicle (AV) encounters scenarios it cannot safely or swiftly resolve. Such instant remote operation is a current goal for 5G and beyond, envisioned by Ericsson for scenarios from public transport to remote mining operations.
+            </p>
+            <p className="mb-4">
+              However, other societal trends such as increased gig-work, heralding the return of piecemeal labor and increased migration due to changes in the climate and geopolitical stability, must also be taken into account when understanding what this autonomous future may be. As shown by the Amazon Warehouse robots, the addition of autonomous agents to current roles does not ensure improvements in working conditions.
+            </p>
             <p className="mb-8">
-              This project gives an interactive vision of a future where current trends come together to create an unequal, unsafe, and unwanted vision of our future society. By exposing people today to possible future situation where they must quickly perform only the most stressful and complex of mobility tasks, in quick succession, under economic and social constraints that give them no other option we hope to encourage designers, developers and end users of these technologies to ensure that it does not come to pass.
+              Autonomous Last Mile presents a speculative and fictional scenario where a new operator is being trained for a future company "Delta Fleet AI" a new operator is trained for a future company 'Delta Fleet AI' to remotely control self-driving vehicles when they find themselves in situations they cannot handle themselves or where the law prohibits autonomous operation. Training is being conducted using the same high-level XR headset they will use during live operations. Indeed, these training events may or may not be live operations used as training and evaluation scenarios for human-autonomy teaming.
             </p>
           </div>
         </div>
