@@ -24,23 +24,14 @@ const DeltaFleetInfo = () => {
           <p className="text-xl md:text-2xl text-gray-400 mb-8">
             Navigating the challenges of remote intervention in an autonomous world.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button
-              variant="outline"
-              onClick={() => scrollToSection("about")}
-              className="group"
-            >
-              Learn More
-              <ArrowDown className="ml-2 h-4 w-4 group-hover:translate-y-1 transition-transform" />
-            </Button>
-            <Button
-              onClick={() => scrollToSection("funding")}
-              className="group"
-            >
-              Apply Now
-              <ArrowDown className="ml-2 h-4 w-4 group-hover:translate-y-1 transition-transform" />
-            </Button>
-          </div>
+          <Button
+            variant="outline"
+            onClick={() => scrollToSection("about")}
+            className="group"
+          >
+            Learn More
+            <ArrowDown className="ml-2 h-4 w-4 group-hover:translate-y-1 transition-transform" />
+          </Button>
         </div>
       </section>
 
