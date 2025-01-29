@@ -26,7 +26,7 @@ const DeltaFleetInfo = () => {
           />
         </Link>
 
-        <div className="container max-w-4xl">
+        <div className="container max-w-4xl mt-16">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
             Delta Fleet AI – Redefining the Future of Human-Autonomy Collaboration
           </h1>
