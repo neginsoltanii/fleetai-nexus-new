@@ -18,7 +18,7 @@ const DeltaFleetInfo = () => {
       {/* Hero Section */}
       <section className="min-h-[80vh] flex items-center justify-center text-center px-4 py-20 relative">
         {/* Logo Link */}
-        <Link to="/" className="absolute top-4 left-4">
+        <Link to="/" className="absolute top-4 left-1/2 -translate-x-1/2">
           <img
             src="src/img/logo.png"
             alt="Company Logo"
