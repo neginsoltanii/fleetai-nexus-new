@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -17,8 +18,8 @@ const About = () => {
               <p className="text-gray-400 mb-4">
                 Leading innovation in human-autonomy teaming
               </p>
-              <Button variant="outline" size="sm">
-                Read More
+              <Button variant="outline" size="sm" asChild>
+                <Link to="/delta-fleet-info">Read More</Link>
               </Button>
             </div>
             <div className="glass-panel p-6 rounded-lg">
